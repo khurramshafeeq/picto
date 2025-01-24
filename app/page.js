@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profle from "@/public/profile.png";
+import profle from "@/public/profile-image.png";
 import Link from "next/link";
 
 import Blog from "./_components/Blogs";
@@ -31,10 +31,10 @@ export default function Home() {
                   Hello, I&apos;m Khurram Shafeeq
                 </h1>
                 <div className="text-lg text-gray-600 my-6">
-                  I&apos;m a Freelance UI/UX Designer and Developer based in
-                  London, England. I strives to build immersive and beautiful
-                  web applications through carefully crafted code and
-                  user-centric design.
+                  I&apos;m a Freelance UI/UX Developer based in Islamabad,
+                  Pakistan. I strives to build immersive and beautiful web
+                  applications through carefully crafted code and user-centric
+                  design.
                 </div>
                 <Link
                   href="#"
@@ -49,18 +49,22 @@ export default function Home() {
                   <div className="">Experience</div>
                 </div>
                 <div className="flex justify-center flex-col items-center gap-y-2 p-6 bg-[#edd8ff80]">
-                  <div className="font-semibold text-2xl">250+</div>
+                  <div className="font-semibold text-2xl">50+</div>
                   <div className="">Project Completed</div>
                 </div>
                 <div className="flex justify-center flex-col items-center gap-y-2 p-6 bg-[#edd8ff80]">
-                  <div className="font-semibold text-2xl">58</div>
+                  <div className="font-semibold text-2xl">5</div>
                   <div className="">Happy Client</div>
                 </div>
               </div>
             </div>
             <div className="lg:w-2/5 bg-white rounded-2xl flex justify-center items-center">
-              <div className="relative aspect-square">
-                <Image src={profle} alt="profile" className="object-cover" />
+              <div className="relative aspect-square max-h-[460px]">
+                <Image
+                  src={profle}
+                  alt="profile"
+                  className="object-contain  h-full w-auto"
+                />
               </div>
             </div>
           </div>
@@ -111,17 +115,17 @@ export default function Home() {
             <div className="lg:w-3/5 grid">
               <div>
                 <h1 className="text-gray-900 font-semibold text-4xl">
-                  I am Professional User Experience Designer
+                  I am Professional User Experience Developer
                 </h1>
                 <div className="text-lg text-gray-600 my-6">
                   <p className="mb-3">
-                    I design and develop services for customers specializing
-                    creating stylish, modern websites, web services and online
-                    stores. My passion is to design digital user experiences.
+                    I develop services for customers specializing creating
+                    stylish, modern websites, web services and online stores. My
+                    passion is to develop digital user experiences.
                   </p>
                   <p>
-                    I design and develop services for customers specializing
-                    creating stylish, modern websites, web services.
+                    I develop services for customers specializing creating
+                    stylish, modern websites, web services.
                   </p>
                 </div>
                 <div className="inline-flex items-center gap-x-6">
