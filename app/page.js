@@ -22,7 +22,10 @@ import {
 export default function Home() {
   return (
     <>
-      <div className="pt-32 bg-gradient-to-bl from-[#EADFF8] via-[#fff] to-[#E5F8F7] ">
+      <div
+        className="pt-32 bg-gradient-to-bl from-[#EADFF8] via-[#fff] to-[#E5F8F7]"
+        id="home"
+      >
         <div className="container mx-auto mb-32">
           <div className="flex flex-col lg:flex-row lg:gap-x-32">
             <div className="lg:w-3/5 grid content-between">
@@ -69,7 +72,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container mx-auto bg-white rounded-2xl shadow-[0_36px_105px_0_rgba(43,56,76,0.10)] relative -mb-16">
+        <div
+          className="container mx-auto bg-white rounded-2xl shadow-[0_36px_105px_0_rgba(43,56,76,0.10)] relative -mb-16"
+          id="about"
+        >
           <div className="flex items-center flex-col lg:flex-row lg:gap-x-32 p-10 lg:p-28">
             <div className="lg:w-2/5 flex justify-center items-center bg-[#F0F1F3]">
               <div className="relative aspect-square flex flex-col justify-center max-h-[460px]">
@@ -148,7 +154,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-50 pb-36 pt-52">
+      <div className="bg-gray-50 pb-36 pt-52" id="process">
         <div className="container mx-auto">
           <div className="flex items-center flex-col lg:flex-row lg:gap-x-32">
             <div className="lg:w-1/2">
@@ -231,7 +237,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-gradient-to-bl from-[#EADFF8] via-[#fff] to-[#E5F8F7]">
+      <div
+        className="py-24 bg-gradient-to-bl from-[#EADFF8] via-[#fff] to-[#E5F8F7]"
+        id="portfolio"
+      >
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Portfolio
@@ -277,7 +286,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-24 pb-16 bg-gradient-to-bl from-[#E5F8F7] via-[#fff] to-[#EADFF8]">
+      <div
+        className="pt-24 pb-16 bg-gradient-to-bl from-[#E5F8F7] via-[#fff] to-[#EADFF8]"
+        id="blogs"
+      >
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Blogs
@@ -291,7 +303,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-gray-50">
+      <div className="py-24 bg-gray-50" id="services">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-32 items-center">
             <div>
@@ -372,7 +384,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-24">
+      <div className="pt-24" id="contact">
         <div className="container mx-auto p-20 bg-white rounded-2xl shadow-[0_59px_124px_0_rgba(0,0,0,0.12)] relative -mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-32 items-center">
             <div>

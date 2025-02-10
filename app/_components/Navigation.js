@@ -14,26 +14,26 @@ export default function Page() {
   return (
     <nav>
       <div className="hidden lg:flex lg:items-center lg:gap-x-12">
-        <Link href="/" className="no-underline">
+        <Link href="#home" className="no-underline">
           Home
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#about" className="no-underline">
           About
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#process" className="no-underline">
           Process
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#portfolio" className="no-underline">
           Portfolio
         </Link>
-        <Link href="/projects" className="no-underline">
-          Blog
+        <Link href="#blogs" className="no-underline">
+          Blogs
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#services" className="no-underline">
           Services
         </Link>
         <Link
-          href="/projects"
+          href="#contact"
           className="p-button bg-primary-500 hover:bg-primary-600 border-primary-500 hover:border-primary-600 font-bold no-underline"
         >
           Contact
