@@ -1,6 +1,7 @@
 // import "primereact/resources/themes/lara-light-indigo/theme.css"; // Choose your theme
 // import "primereact/resources/primereact.min.css";
 // import "primeicons/primeicons.css";
+import { Analytics } from "@vercel/analytics/next";
 
 import Footer from "@/app/_components/Footer";
 import Header from "@/app/_components/Header";
@@ -29,7 +30,10 @@ export default function RootLayout({ children }) {
       <body className={`${worksans.className}`}>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">
+            {children}
+            <Analytics />
+          </main>
           <Footer />
           <ScrollToTop />
         </div>
