@@ -2,6 +2,7 @@
 // import "primereact/resources/primereact.min.css";
 // import "primeicons/primeicons.css";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import Footer from "@/app/_components/Footer";
 import Header from "@/app/_components/Header";
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
           <main className="flex-grow">
             {children}
             <Analytics />
+            <SpeedInsights />
           </main>
           <Footer />
           <ScrollToTop />
