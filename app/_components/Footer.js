@@ -4,7 +4,7 @@ import logo from "@/public/logo-light.svg";
 
 export default function Page() {
   return (
-    <footer className="bg-gray-800 pt-28 pb-20">
+    <footer className="bg-gray-800 pt-28 pb-20 relative">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between items-center">
           <Link href="/">
@@ -36,8 +36,28 @@ export default function Page() {
               </Link>
             </div>
           </div>
-          <div className="text-white">Copyright © 2025 Picto.</div>
+          <div className="text-white">
+            Copyright © 2025{" "}
+            <a
+              href="https://www.figma.com/@templatecookie"
+              className="text-white no-underline"
+              target="_blank"
+            >
+              Picto
+            </a>
+            .
+          </div>
         </div>
+      </div>
+      <div className="text-gray-50 text-[11px] absolute left-0 right-0 bottom-3 text-center">
+        Designed by{" "}
+        <a
+          href="https://www.figma.com/@templatecookie"
+          className="text-gray-400"
+          target="_blank"
+        >
+          Templatecookie
+        </a>
       </div>
     </footer>
   );

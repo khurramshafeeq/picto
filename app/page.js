@@ -31,7 +31,9 @@ export default function Home() {
             <div className="lg:w-3/5 grid content-between">
               <div className="lg:mb-32">
                 <h1 className="text-gray-900 font-semibold text-7xl">
-                  Hello, I&apos;m Khurram Shafeeq
+                  Hello, I&apos;m
+                  <br />
+                  Khurram Shafeeq
                 </h1>
                 <div className="text-lg text-gray-600 my-6">
                   I&apos;m a Freelance UI/UX Developer based in Islamabad,
@@ -46,7 +48,7 @@ export default function Home() {
                   Say Hello!
                 </Link>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 my-4 lg:my-0">
                 <div className="flex justify-center flex-col items-center gap-y-2 p-6 bg-[#edd8ff80]">
                   <div className="font-semibold text-2xl">15 Y.</div>
                   <div className="">Experience</div>
@@ -66,7 +68,7 @@ export default function Home() {
                 <Image
                   src={profle}
                   alt="profile"
-                  className="object-contain  h-full w-auto"
+                  className="object-contain max-w-full h-full w-auto"
                 />
               </div>
             </div>
@@ -82,7 +84,7 @@ export default function Home() {
                 <Image
                   src={profle}
                   alt="profile"
-                  className="object-contain h-full w-auto"
+                  className="object-contain h-full w-auto max-w-full"
                 />
                 <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-9 flex gap-1 bg-white w-auto mx-auto  p-3 rounded shadow-[0_12px_64px_0_rgba(28,25,25,0.12)]">
                   <Link
@@ -118,7 +120,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-3/5 grid">
+            <div className="lg:w-3/5 grid mt-16 lg:mt-0">
               <div>
                 <h1 className="text-gray-900 font-semibold text-4xl">
                   I am Professional User Experience Developer
@@ -134,7 +136,7 @@ export default function Home() {
                     stylish, modern websites, web services.
                   </p>
                 </div>
-                <div className="inline-flex items-center gap-x-6">
+                <div className="flex flex-col lg:flex-row items-center gap-6">
                   <Link
                     href="#"
                     className="p-button bg-primary-500 hover:bg-primary-600 border-primary-500 hover:border-primary-600 font-bold no-underline"
@@ -178,7 +180,7 @@ export default function Home() {
             </div>
             <div className="lg:w-1/2 flex flex-col lg:flex-row gap-6">
               <div className="lg:w-1/2">
-                <div className="flex flex-col gap-6 -mt-6">
+                <div className="flex flex-col gap-6 mt-8 lg:-mt-6">
                   <div className="bg-white p-8 rounded-xl group hover:shadow-[32px_32px_124px_0_rgba(43,56,76,0.10)]">
                     <div className="w-16 h-16 p-5 rounded-md bg-[#edd8ff80] group-hover:bg-primary-500 mb-8">
                       <NewspaperIcon className="size-6 text-primary-500 group-hover:text-white" />
@@ -237,7 +239,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-white" id="portfolio">
+      <div className="py-10 lg:py-24 bg-white" id="portfolio">
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Portfolio
@@ -261,12 +263,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="py-24 bg-gray-900">
+      <div className="py-10 lg:py-24 bg-gray-900">
         <div className="container mx-auto">
-          <h2 className="text-white font-semibold text-5xl mb-6 text-center w-1/2 mx-auto">
+          <h2 className="text-white font-semibold text-5xl mb-6 text-center w-full lg:w-1/2 mx-auto">
             Do you have Project Idia? Let&apos;s discuss your project!
           </h2>
-          <div className="text-gray-300 text-center text-lg w-1/2 mx-auto">
+          <div className="text-gray-300 text-center text-lg w-full lg:w-1/2 mx-auto">
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration.
@@ -284,14 +286,14 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="pt-24 pb-16 bg-gradient-to-bl from-[#E5F8F7] via-[#fff] to-[#EADFF8]"
+        className="py-10 lg:py-24 bg-gradient-to-bl from-[#E5F8F7] via-[#fff] to-[#EADFF8]"
         id="blogs"
       >
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Blogs
           </h2>
-          <div className="text-gray-400 text-center text-lg w-1/2 mx-auto">
+          <div className="text-gray-400 text-center text-lg w-full lg:w-1/2 mx-auto">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </div>
@@ -300,7 +302,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24 bg-gray-50" id="services">
+      <div className="py-10 lg:py-24 bg-gray-50" id="services">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-32 items-center">
             <div>
@@ -353,12 +355,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-24 pb-12">
+      <div className="pt-10 lg:pt-24 pb-10 lg:pb-12">
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Happy Clients
           </h2>
-          <div className="text-gray-400 text-center text-lg w-1/2 mx-auto">
+          <div className="text-gray-400 text-center text-lg w-full lg:w-1/2 mx-auto">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </div>
@@ -367,12 +369,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-12 pb-24">
+      <div className="lg:pt-12 pb-10 lg:pb-24">
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Testimonial
           </h2>
-          <div className="text-gray-400 text-center text-lg w-1/2 mx-auto">
+          <div className="text-gray-400 text-center text-lg w-full lg:w-1/2 mx-auto">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration.
           </div>
@@ -381,8 +383,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="contact">
-        <div className="container mx-auto p-20 bg-white rounded-2xl shadow-[0_59px_124px_0_rgba(0,0,0,0.12)] relative -mb-12">
+      <div className="container mx-auto" id="contact">
+        <div className="p-8 lg:p-20 bg-white rounded-2xl shadow-[0_59px_124px_0_rgba(0,0,0,0.12)] relative z-10 -mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-32 items-center">
             <div>
               <h3 className="text-gray-900 text-4xl font-semibold">

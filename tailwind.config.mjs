@@ -25,6 +25,9 @@ const tailwindConfig = {
         },
       },
     },
+    container: {
+      padding: "2rem",
+    },
   },
   corePlugins: {
     preflight: false, // Disable preflight styles
