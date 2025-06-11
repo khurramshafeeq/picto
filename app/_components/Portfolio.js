@@ -6,7 +6,7 @@ export default function Page() {
   const portfolioData = [
     {
       id: 1,
-      imageUrl: "/blog-1.png",
+      imageUrl: "portfolio-1.jpg",
       category: "UI-UX DESIGN",
       title: "Product Admin Dashboard",
       description:
@@ -15,7 +15,7 @@ export default function Page() {
     },
     {
       id: 2,
-      imageUrl: "/blog-1.png",
+      imageUrl: "portfolio-2.jpg",
       category: "UI-UX DESIGN",
       title: "Product Admin Dashboard",
       description:
@@ -24,7 +24,7 @@ export default function Page() {
     },
     {
       id: 3,
-      imageUrl: "/blog-1.png",
+      imageUrl: "portfolio-3.jpg",
       category: "UI-UX DESIGN",
       title: "Product Admin Dashboard",
       description:
@@ -33,7 +33,7 @@ export default function Page() {
     },
     {
       id: 4,
-      imageUrl: "/blog-1.png",
+      imageUrl: "portfolio-4.jpg",
       category: "UI-UX DESIGN",
       title: "Product Admin Dashboard",
       description:
@@ -42,7 +42,7 @@ export default function Page() {
     },
     {
       id: 5,
-      imageUrl: "/blog-1.png",
+      imageUrl: "portfolio-5.jpg",
       category: "UI-UX DESIGN",
       title: "Product Admin Dashboard",
       description:
@@ -51,7 +51,7 @@ export default function Page() {
     },
     {
       id: 6,
-      imageUrl: "/blog-1.png",
+      imageUrl: "portfolio-6.jpg",
       category: "UI-UX DESIGN",
       title: "Product Admin Dashboard",
       description:
@@ -65,13 +65,13 @@ export default function Page() {
         {portfolioData.map((portfolio) => (
           <div
             key={portfolio.id}
-            className="bg-white rounded-md border border-solid border-gray-100 shadow-[0_12px_64px_0_rgba(28,25,25,0.12)]"
+            className="bg-white rounded-lg border border-solid border-[#E6E8EB] overflow-hidden "
           >
             <div className="relative h-[248px]">
               <Image
-                src={portfolio.imageUrl}
-                layout="fill"
-                objectFit="cover"
+                src={`portfolio/${portfolio.imageUrl}`}
+                fill
+                className="object-cover"
                 alt="blog"
               />
             </div>

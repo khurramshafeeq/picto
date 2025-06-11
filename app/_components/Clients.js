@@ -60,8 +60,8 @@ export default function Page() {
           <Image
             src={`/clients/${client.image}`}
             alt={client.name}
-            layout="fill"
-            objectFit="cover"
+            fill
+            className="object-cover"
           />
         </div>
       </div>

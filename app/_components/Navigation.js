@@ -55,22 +55,22 @@ export default function Page() {
         <Link href="/" className="no-underline">
           Home
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#" className="no-underline">
           About
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#" className="no-underline">
           Process
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#" className="no-underline">
           Portfolio
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#" className="no-underline">
           Blog
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#" className="no-underline">
           Services
         </Link>
-        <Link href="/projects" className="no-underline">
+        <Link href="#" className="no-underline">
           Contact
         </Link>
       </div>

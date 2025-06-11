@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profle from "@/public/profile-image.png";
+import profle from "@/public/profile.png";
 import Link from "next/link";
 
 import Blog from "./_components/Blogs";
@@ -62,7 +62,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:w-2/5 bg-white rounded-2xl flex justify-center items-center">
-              <div className="relative aspect-square max-h-[460px]">
+              <div className="relative aspect-square text-center max-h-[460px]">
                 <Image
                   src={profle}
                   alt="profile"
@@ -136,13 +136,13 @@ export default function Home() {
                 </div>
                 <div className="inline-flex items-center gap-x-6">
                   <Link
-                    href="/projects"
+                    href="#"
                     className="p-button bg-primary-500 hover:bg-primary-600 border-primary-500 hover:border-primary-600 font-bold no-underline"
                   >
                     My Projects
                   </Link>
                   <Link
-                    href="/projects"
+                    href="#"
                     className="p-button p-button-outlined text-primary-500 font-bold no-underline"
                   >
                     <ArrowDownTrayIcon className="size-6 text-primary-500 mr-3" />
@@ -237,10 +237,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div
-        className="py-24 bg-gradient-to-bl from-[#EADFF8] via-[#fff] to-[#E5F8F7]"
-        id="portfolio"
-      >
+      <div className="py-24 bg-white" id="portfolio">
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Portfolio
@@ -255,7 +252,7 @@ export default function Home() {
           <Portfolio />
           <div className="mt-12 text-center">
             <Link
-              href="/projects"
+              href="#"
               className="p-button bg-primary-500 hover:bg-primary-600 border-primary-500 hover:border-primary-600 font-bold no-underline"
             >
               More Projects
@@ -277,7 +274,7 @@ export default function Home() {
           </div>
           <div className="mt-12 text-center">
             <Link
-              href="/projects"
+              href="#"
               className="p-button bg-primary-500 hover:bg-primary-600 border-primary-500 hover:border-primary-600 font-bold no-underline"
             >
               <span className="inline-block mr-3"> Let’s work Together</span>
@@ -324,7 +321,7 @@ export default function Home() {
                 href="#"
                 className="p-button bg-primary-500 hover:bg-primary-600 border-primary-500 hover:border-primary-600 font-bold no-underline mt-12"
               >
-                Say Hello
+                Say Hello!
               </Link>
             </div>
             <div className="flex flex-col gap-6">
@@ -337,7 +334,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="bg-white rounded-md border-0 border-white hover:border-primary-500 hover:shadow-[0_32px_96px_0_rgba(28,25,25,0.16)] border-l-4 border-solid p-8">
-                <h3>User Experience (UX)</h3>
+                <h3>User Interface (UI)</h3>
                 <div className="text-gray-700 mt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   purus arcu, varius eget velit non, laoreet imperdiet orci.
@@ -345,7 +342,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="bg-white rounded-md border-0 border-white hover:border-primary-500 hover:shadow-[0_32px_96px_0_rgba(28,25,25,0.16)] border-l-4 border-solid p-8">
-                <h3>User Experience (UX)</h3>
+                <h3>Web Development</h3>
                 <div className="text-gray-700 mt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   purus arcu, varius eget velit non, laoreet imperdiet orci.
@@ -356,7 +353,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-24 pb-12">
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Happy Clients
@@ -370,7 +367,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-12 pb-24">
         <div className="container mx-auto">
           <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
             Testimonial
@@ -384,7 +381,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-24" id="contact">
+      <div id="contact">
         <div className="container mx-auto p-20 bg-white rounded-2xl shadow-[0_59px_124px_0_rgba(0,0,0,0.12)] relative -mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-32 items-center">
             <div>
