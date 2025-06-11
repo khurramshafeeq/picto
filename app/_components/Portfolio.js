@@ -11,7 +11,7 @@ export default function Page() {
       title: "Product Admin Dashboard",
       description:
         "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.",
-      link: "projects",
+      link: "#",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export default function Page() {
       title: "Product Admin Dashboard",
       description:
         "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.",
-      link: "projects",
+      link: "#",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ export default function Page() {
       title: "Product Admin Dashboard",
       description:
         "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.",
-      link: "projects",
+      link: "#",
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ export default function Page() {
       title: "Product Admin Dashboard",
       description:
         "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.",
-      link: "projects",
+      link: "#",
     },
     {
       id: 5,
@@ -47,7 +47,7 @@ export default function Page() {
       title: "Product Admin Dashboard",
       description:
         "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.",
-      link: "projects",
+      link: "#",
     },
     {
       id: 6,
@@ -56,7 +56,7 @@ export default function Page() {
       title: "Product Admin Dashboard",
       description:
         "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.",
-      link: "projects",
+      link: "#",
     },
   ];
   return (
