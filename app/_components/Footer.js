@@ -13,25 +13,25 @@ export default function Page() {
           </Link>
           <div>
             <div className="flex flex-col lg:flex-row items-center gap-3 lg:gap-12">
-              <Link href="/" className="text-gray-50 no-underline">
+              <Link href="#" className="text-gray-50 no-underline">
                 Home
               </Link>
-              <Link href="/projects" className="text-gray-50 no-underline">
+              <Link href="#" className="text-gray-50 no-underline">
                 About
               </Link>
-              <Link href="/projects" className="text-gray-50 no-underline">
+              <Link href="#" className="text-gray-50 no-underline">
                 Process
               </Link>
-              <Link href="/projects" className="text-gray-50 no-underline">
+              <Link href="#" className="text-gray-50 no-underline">
                 Portfolio
               </Link>
-              <Link href="/projects" className="text-gray-50 no-underline">
+              <Link href="#" className="text-gray-50 no-underline">
                 Blog
               </Link>
-              <Link href="/projects" className="text-gray-50 no-underline">
+              <Link href="#" className="text-gray-50 no-underline">
                 Services
               </Link>
-              <Link href="/projects" className="text-gray-50 no-underline">
+              <Link href="#" className="text-gray-50 no-underline">
                 Contact
               </Link>
             </div>

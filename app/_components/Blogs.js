@@ -55,22 +55,24 @@ export default function Page() {
 
   const productTemplate = (product) => {
     return (
-      <div className="bg-white rounded-lg border border-solid border-gray-50 mx-3">
+      <div className="bg-white rounded-lg border border-solid border-gray-50 mx-3 overflow-hidden">
         <div className="relative w-full h-56">
           <Image
-            src={`https://primefaces.org/cdn/primereact/images/product/${product.image}`}
+            src={`/blogs/${product.image}`}
             alt={product.name}
-            layout="fill"
-            objectFit="cover"
+            fill
+            className="object-cover"
           />
         </div>
         <div className="p-6">
-          <div className="text-gray-400 text-sm">22 Oct, 2020</div>
+          <div className="text-gray-400 text-sm">
+            22 Oct, 2020 / 245 Comments
+          </div>
           <Link
             href="#"
             className="text-gray-950 text-lg font-medium no-underline"
           >
-            Lorem ipsum dolor sit consea. Nulla purus arcu
+            Lorem ipsum dolor sit consea. Nulla purus arcu dolor sit consea
           </Link>
         </div>
       </div>
