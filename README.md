@@ -66,4 +66,6 @@ This project is free to use for both personal and commercial purposes. No attrib
 
 ## 👨‍💻 Author
 
-Designed and developed by [Khurram Shafeeq](https://x.com/Khurram_shafeeq)
+Designed by [Templatecookie](https://www.figma.com/@templatecookie)
+
+Developed by [Khurram Shafeeq](https://x.com/Khurram_shafeeq)
