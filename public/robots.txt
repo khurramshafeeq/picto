@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://khurramshafeeq.vercel.app/
+
+# Sitemaps
+Sitemap: https://khurramshafeeq.vercel.app/sitemap.xml

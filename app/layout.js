@@ -22,7 +22,63 @@ export const metadata = {
     template: "%s | Portfolio",
     default: "Home | Portfolio",
   },
-  description: "portfolio of my work",
+  description:
+    "A free, responsive personal portfolio template built with Next.js. Perfect for developers and designers.",
+  other: {
+    "google-site-verification": "hGgJ7ZV9h3yw2n1zthtkDYAPJGaponAGhqWXlFvtPvA",
+  },
+  keywords: [
+    "Next.js portfolio",
+    "nextjs",
+    "free portfolio template",
+    "developer portfolio",
+    "personal website",
+    "tailwindcss template",
+  ],
+  authors: [
+    { name: "Khurram Shafeeq", url: "https://khurramshafeeq.vercel.app/" },
+  ],
+  creator: "Khurram Shafeeq",
+  publisher: "Khurram Shafeeq",
+  metadataBase: new URL("https://khurramshafeeq.vercel.app/"),
+
+  openGraph: {
+    title: "Home | Portfolio",
+    description:
+      "A free, responsive personal portfolio template built with Next.js. Perfect for developers and designers.",
+    url: "https://khurramshafeeq.vercel.app/",
+    siteName: "Free Picto Portfolio Template",
+    images: [
+      {
+        url: "/og-image.jpg", // stored in public folder
+        width: 1920,
+        height: 1005,
+        alt: "Portfolio Preview Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Home | Portfolio",
+    description: "Portfolio of my work",
+    creator: "@Khurram_shafeeq",
+    images: ["/og-image.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      maxVideoPreview: -1,
+      maxImagePreview: "large",
+      maxSnippet: -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
