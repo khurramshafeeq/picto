@@ -23,14 +23,14 @@ export default function Home() {
   return (
     <>
       <div
-        className="pt-32 bg-gradient-to-bl from-[#EADFF8] via-[#fff] to-[#E5F8F7]"
+        className="pt-12 lg:pt-32 bg-gradient-to-bl from-[#EADFF8] via-[#fff] to-[#E5F8F7]"
         id="home"
       >
         <div className="container mx-auto mb-32">
           <div className="flex flex-col lg:flex-row lg:gap-x-32">
             <div className="lg:w-3/5 grid content-between">
               <div className="lg:mb-32">
-                <h1 className="text-gray-900 font-semibold text-7xl">
+                <h1 className="text-gray-900 font-semibold text-5xl lg:text-7xl">
                   Hello, I&apos;m
                   <br />
                   Khurram Shafeeq
@@ -78,7 +78,7 @@ export default function Home() {
           className="container mx-auto bg-white rounded-2xl shadow-[0_36px_105px_0_rgba(43,56,76,0.10)] relative -mb-16"
           id="about"
         >
-          <div className="flex items-center flex-col lg:flex-row lg:gap-x-32 p-10 lg:p-28">
+          <div className="flex items-center flex-col lg:flex-row lg:gap-x-32 p-4 lg:p-28">
             <div className="lg:w-2/5 flex justify-center items-center bg-[#F0F1F3]">
               <div className="relative aspect-square flex flex-col justify-center max-h-[460px]">
                 <Image
@@ -156,12 +156,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-50 pb-36 pt-52" id="process">
+      <div className="bg-gray-50 pb-10 lg:pb-36 pt-24 lg:pt-52" id="process">
         <div className="container mx-auto">
           <div className="flex items-center flex-col lg:flex-row lg:gap-x-32">
             <div className="lg:w-1/2">
               <div className="">
-                <h2 className="text-gray-900 font-semibold text-5xl mb-6">
+                <h2 className="text-gray-900 font-semibold text-4xl lg:text-5xl mb-6">
                   Work Process
                 </h2>
                 <div className="text-gray-500 text-lg">
@@ -241,10 +241,10 @@ export default function Home() {
       </div>
       <div className="py-10 lg:py-24 bg-white" id="portfolio">
         <div className="container mx-auto">
-          <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
+          <h2 className="text-gray-900 font-semibold text-4xl lg:text-5xl mb-6 text-center">
             Portfolio
           </h2>
-          <div className="text-gray-400 text-center text-lg w-1/2 mx-auto">
+          <div className="text-gray-400 text-center text-lg lg:w-1/2 mx-auto">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
               purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris
@@ -265,7 +265,7 @@ export default function Home() {
 
       <div className="py-10 lg:py-24 bg-gray-900">
         <div className="container mx-auto">
-          <h2 className="text-white font-semibold text-5xl mb-6 text-center w-full lg:w-1/2 mx-auto">
+          <h2 className="text-white font-semibold text-4xl lg:text-5xl mb-6 text-center w-full lg:w-1/2 mx-auto">
             Do you have Project Idia? Let&apos;s discuss your project!
           </h2>
           <div className="text-gray-300 text-center text-lg w-full lg:w-1/2 mx-auto">
@@ -290,7 +290,7 @@ export default function Home() {
         id="blogs"
       >
         <div className="container mx-auto">
-          <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
+          <h2 className="text-gray-900 font-semibold text-4xl lg:text-5xl mb-6 text-center">
             Blogs
           </h2>
           <div className="text-gray-400 text-center text-lg w-full lg:w-1/2 mx-auto">
@@ -306,7 +306,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-32 items-center">
             <div>
-              <h3 className="text-gray-950 text-5xl font-semibold">
+              <h3 className="text-gray-950 text-4xl lg:text-5xl font-semibold">
                 What I do?
               </h3>
               <div className="text-gray-400 text-lg mt-6">
@@ -357,7 +357,7 @@ export default function Home() {
       </div>
       <div className="pt-10 lg:pt-24 pb-10 lg:pb-12">
         <div className="container mx-auto">
-          <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
+          <h2 className="text-gray-900 font-semibold text-4xl lg:text-5xl mb-6 text-center">
             Happy Clients
           </h2>
           <div className="text-gray-400 text-center text-lg w-full lg:w-1/2 mx-auto">
@@ -371,7 +371,7 @@ export default function Home() {
       </div>
       <div className="lg:pt-12 pb-10 lg:pb-24">
         <div className="container mx-auto">
-          <h2 className="text-gray-900 font-semibold text-5xl mb-6 text-center">
+          <h2 className="text-gray-900 font-semibold text-4xl lg:text-5xl mb-6 text-center">
             Testimonial
           </h2>
           <div className="text-gray-400 text-center text-lg w-full lg:w-1/2 mx-auto">
@@ -390,7 +390,7 @@ export default function Home() {
               <h3 className="text-gray-900 text-4xl font-semibold">
                 Let’s discuss your Project
               </h3>
-              <div className="text-gray-400 text-lg mt-4">
+              <div className="text-gray-400 text-lg mt-4 mb-4 lg:mb-0">
                 There are many variations of passages of Lorem Ipsu available.
                 but the majority have suffered alte.
               </div>
@@ -413,7 +413,7 @@ export default function Home() {
                   <div>
                     <div className="text-gray-700 text-sm">My Email:</div>
                     <div className="text-gray-900 font-medium mt-1">
-                      mymail@mail.com
+                      khurram.pk@hotmail.com
                     </div>
                   </div>
                 </div>
